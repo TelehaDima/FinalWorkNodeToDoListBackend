@@ -5,8 +5,8 @@ const router = Router();
 
 router.get('/', getList);
 router.post('/saveList', saveList);
-router.delete('/deleteList', deleteList);
-router.put('/editList', editList);
+router.post('/deleteList', deleteList);
+router.post('/editList', editList);
 
 
 

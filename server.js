@@ -1,11 +1,10 @@
 const express = require('express');
 const app = express();
-const mongoose = require('mongoose');
 const routes = require('./ListRoute');
 const cors = require('cors');
 
+const mongoose = require('mongoose');
 require('dotenv').config();
-
 mongoose.set("strictQuery", false);
 
 
